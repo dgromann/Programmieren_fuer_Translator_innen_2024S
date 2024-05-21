@@ -1,6 +1,5 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-#Datei mit Beispieltext 3 laden
 article2 = open("Dateipfad/Text2.txt")
 article3 = open("Dateipfad/Text3.txt")
 
