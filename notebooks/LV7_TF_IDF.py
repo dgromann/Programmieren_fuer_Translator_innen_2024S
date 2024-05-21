@@ -1,8 +1,8 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 #Datei mit Beispieltext 3 laden
-article2 = open("/Users/dgromann/Library/CloudStorage/GoogleDrive-dagmar.gromann@gmail.com/My Drive/UniWien/Teaching/Einführung_Programmieren_Translator_innen_SS2024/Text2.txt")
-article3 = open("/Users/dgromann/Library/CloudStorage/GoogleDrive-dagmar.gromann@gmail.com/My Drive/UniWien/Teaching/Einführung_Programmieren_Translator_innen_SS2024/Text3.txt")
+article2 = open("Dateipfad/Text2.txt")
+article3 = open("Dateipfad/Text3.txt")
 
 # Hier finden Sie die Scikit-Learn Dokumentation:
 # https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html
