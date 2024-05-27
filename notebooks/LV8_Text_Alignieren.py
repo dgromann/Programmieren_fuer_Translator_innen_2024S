@@ -4,8 +4,8 @@ from simalign import SentenceAligner
 Vergleichen Sie die visuelle Darstellung der beiden Sätze in dieser Online-Demo mit der Ausgabe: https://simalign.cis.lmu.de/ 
 mwmf = Match, inter = ArgMax, itermax = IterMax
 
-One interesting method for sentence alignment is BertAlign: https://github.com/bfsujason/bertalign/tree/main
-See the above GitHub, which also contains a link to a Google Colab Notebook
+Eine interessante Methode zur Alignierung von Sätzen ist BertAlign: https://github.com/bfsujason/bertalign/tree/main
+Dazu können Sie sich das GitHub sowie den darin enthaltenen Google Colab-Link anschauen 
 '''
 def find_word_alignment(source_sentence, target_sentence):
     simalign_bert = SentenceAligner(model="bert-base-multilingual-cased", token_type="word")
